@@ -14,19 +14,19 @@ Welcome to the New Balance Online Store! This project is a modern e-commerce pla
 
 To get started with this project, clone the repository and install the dependencies:
 
-\`\`\`bash
+```bash
 git clone https://github.com/abdellah-agrm/new-balance.git
 cd new-balance
 npm install
-\`\`\`
+```
 
 ## Usage
 
 After installing, you can start the server by running:
 
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 The application will be available at `http://localhost:3000`.
 
