@@ -4,6 +4,10 @@
 
 Welcome to the New Balance Online Store! This project is a modern e-commerce platform built with React.js, styled with Tailwind CSS, and animated using Framer Motion.
 
+## Preview
+
+![New balance online store](/preview.png "New balance online store")
+
 ## Features
 
 - **Responsive Design**: Adapts seamlessly to any screen size.
