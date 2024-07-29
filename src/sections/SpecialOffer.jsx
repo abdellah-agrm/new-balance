@@ -6,7 +6,7 @@ import { Button } from "../components";
 
 const SpecialOffer = () => {
   return (
-    <motion.div variants={staggerContainer} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.25 }} className='flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container'>
+    <motion.div variants={staggerContainer} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.25 }} className='flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container'>
       <motion.div variants={fadeIn('right', 'tween', 0.2, 1)} className='flex-1'>
         <img
           src={offer}
