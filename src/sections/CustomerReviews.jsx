@@ -5,7 +5,7 @@ import { staggerContainer, textVariant } from "../Elements/Motion";
 
 const CustomerReviews = () => {
   return (
-    <motion.div variants={staggerContainer} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.25 }} className='max-container'>
+    <motion.div variants={staggerContainer} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.25 }} className='max-container'>
       <motion.h3 variants={textVariant(0.4)} className='font-palanquin text-center text-4xl font-bold'>
         What Our
         <span className='text-coral-red'> Customers </span>
