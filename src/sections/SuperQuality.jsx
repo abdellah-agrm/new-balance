@@ -5,7 +5,7 @@ import { Button } from "../components";
 
 const SuperQuality = () => {
   return (
-    <motion.div variants={staggerContainer} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.25 }} id='about-us' className='flex justify-between items-center max-lg:flex-col gap-10 w-full max-container'>
+    <motion.div variants={staggerContainer} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.25 }} id='about-us' className='flex justify-between items-center max-lg:flex-col gap-10 w-full max-container'>
       <motion.div variants={fadeIn('right', 'tween', 0.2, 1)} className='flex flex-1 flex-col'>
         <h2 className='font-palanquin capitalize text-4xl lg:max-w-lg font-bold'>
           We Provide You
