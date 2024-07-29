@@ -4,7 +4,7 @@ import { Button } from "../components";
 
 const Subscribe = () => {
   return (
-    <motion.div variants={staggerContainer} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.25 }} id='contact-us' className='max-container flex justify-between items-center max-lg:flex-col gap-10'>
+    <motion.div variants={staggerContainer} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.25 }} id='contact-us' className='max-container flex justify-between items-center max-lg:flex-col gap-10'>
       <motion.h3 variants={fadeIn('right', 'tween', 0.2, 1)} className='text-4xl leading-[68px] lg:max-w-md font-palanquin font-bold'>
         Sign Up for
         <span className='text-coral-red'> Updates </span>& Newsletter
